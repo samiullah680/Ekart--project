@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Electronic equipayment cell management System  </title>
+ <link rel="stylesheet" type="text/css" href="css/homecs.css">
+
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="header">
+
+    <nav class=" navbar navbar-style navbar-expand-sm  ">
+        
+      <div class="container ">
+          
+          <div class="navbar-header">
+            <a href=""> <img class="logo" src="img/logo.jpg"> <span> <b> Admin pannel</b></span> </a>
+          </div>
+
+
+          <ul class=" nav navbar-nav navbar-right ">
+      
+            <li class="nav-item" >
+              <a class="nav-link " href=" /ahome "> <i class="fa fa-home"></i> Home </a>
+                
+            </li>
+
+            <li class="nav-item" >
+              <a  class=" nav-link " href=" /addproduct"> <i class="fa fa-shopping-cart"></i> Add product </a>
+            </li>
+            <li  class=" nav-item ">
+              <a  class="nav-link" href="/deletproduct "> <i class=" fa fa-trash-o fa-lg"></i> Delete product  </a>
+            </li>
+            <li  class="nav-item">
+              <a class="nav-link" href="/updateproduct">  <i class="fa fa-upload"></i> update product </a>
+            </li>
+            <li  class="nav-item">
+              <a class="nav-link" href="/adisplay">  <i class="fa fa-eye "></i> Display product </a>
+            </li>
+
+            <%  if(user) { %>
+            <li class="nav-item" >
+              
+                <a  class="nav-link" href="/logout"> <i class="fa fa-sign-in"></i>logout  </a>
+
+            </li>
+            <%} else  { %>
+            <li class="nav-item" >
+              <a  class="nav-link" href="/adminlogin"> <i class="fa fa-sign-in"></i>Login/register  </a>
+            </li>
+            <% } %>
+            <li  class="nav-item">
+              <a class="nav-link" href="#">  <i class="fa fa-envelope"></i>contact us </a>
+            </li>
+
+        
+
+          
+            
+          </ul>
+          
+      
+
+  </div>
+          
+    </nav>
+    <br>
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12">    
+          <h2> This project to easly connect user and shop </h2>
+          <br>
+          <p class="big-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nihil at ullam! Nulla quibusdam minus voluptatem incidunt perferendis facere quam quasi dolorum neque aliquid cum saepe vitae quia, dolores earum!</p>  
+        </div>
+        <diV class="col-lg-6 col-md-6 col-sm-6 col-12"> 
+          <a > <img src="img/onlineshop.jpg" class="img-responsive" height="500px" width="500px" top="10px"> </a>
+        </diV>
+
+
+      </div>
+
+<br> <br>
+      <div class="row ">
+        <div class="col-lg-8 col-md-8 col-sm-8 col-12">    
+         
+          <a > <img src="img/pickh.jpeg"  class="img-fluid rounded-circle"  height="500px" width="600px" top="10px"> </a>
+          
+        </div>
+
+        <diV class="col-lg-4 col-md-4 col-sm-4 col-12"> 
+          <h2> This project to easly connect user and shop </h2>
+          <p class="big-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nihil at ullam! Nulla quibusdam minus voluptatem incidunt perferendis facere quam quasi dolorum neque aliquid cum saepe vitae quia, dolores earum!</p>  
+         
+        </diV>
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+    
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

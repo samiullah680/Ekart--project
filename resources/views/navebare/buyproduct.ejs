@@ -1,0 +1,683 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1, shrink-to-fit=no">
+
+
+      <!-- Bootstrap CSS 
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+      <title>Electronic equipayment cell management System  </title>
+   <link rel="stylesheet" type="text/css" href="css/homecs.css">
+  
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  
+-->
+    <!-- Bootstrap CSS -->
+    
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Electronic equipayment cell management System  </title>
+ <link rel="stylesheet" type="text/css" href="css/homecs.css">
+
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/drop.css">
+    
+
+
+    
+  
+    <style>
+
+
+
+
+.pages {
+    margin: 0 12px 48px 0;
+    margin-top: 0px;
+    margin-right: 12px;
+    margin-bottom: 48px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-family: Apercu,sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+
+
+
+
+
+
+.big-text{
+    font-size: 25px;
+    margin: 15px 0;
+    color: darkorange;
+}
+.content-mobile{
+    width: max-content;
+    height: auto;
+    background-color: #fff;
+}
+.footer-slider {
+    width: auto;
+    padding: 0px 8px;
+    font-size: 13px!important;
+    float: left;
+    color: #333 !important;
+}
+.footer-slider img {
+    width: 85px;
+}
+
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+
+
+.col-xs-12 {
+    width: 100%;
+}
+
+.pdl3 {
+    padding-left: 3.3%!important;
+}
+
+* {
+    
+    box-sizing: border-box;
+}
+
+.payicon img {
+    width: 10% !important;
+}
+
+.payicon img {
+    width: 12.5%!important;
+    height: 25px!important;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.text-center {
+    text-align: center;
+}
+.follow, .pay-icon {
+    font-size: 13px;
+}
+
+
+.text-center {
+    text-align: center;
+}
+.follow, .pay-icon {
+    font-size: 13px;
+}
+Style Attribute {
+    font-family: 'Montserrat', sans-serif !important;
+}
+body {
+
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+.font21 {
+    font-size: 19px!important;
+}
+.col-lg-4, .col-md-4 , .col-sm-4 .col-12 {
+    width: 10%;
+}
+
+     .container {
+  position: relative;
+  
+  height:"500px";
+   width:"500px";
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+ul.gallery li {
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+}
+
+ul.nav-pills {
+    top: 20px;
+    position: fixed;
+  }
+  div.col-8 div {
+    height: 500px;
+  }
+     
+           </style>
+ 
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   
+    
+    <title>Customer service </title>
+  </head>
+  <body>
+    
+
+    <div class="header">
+
+        <nav class=" navbar navbar-style navbar-expand-sm  ">
+            
+          <div class="container ">
+              
+              <div class="navbar-header">
+                
+                <a class="nav-link" href=""> <img class="logo" src="img/logo.jpg"> Electronic equipayment cell management System </a>
+              </div>
+              <ul class=" nav navbar-nav navbar-right ">
+                <li class="nav-item" >
+                    <a class="nav-link" href=""> 
+                        <img src="http://mafiashades.com/shared/img/search.png" style="width:21px; height:auto; " class="search-icon-click">
+                        <input type="text" class="search-show shweb_searcher" placeholder="Search..." style="border-top: none; border-right: none; border-left: none; border-image: initial; background-color: transparent; font-size: 15px; outline: none; border-bottom: 1px solid rgb(153, 153, 153);" autofocus=""></a>
+                    
+                </li>
+
+                 
+                     <li  class="nav-item">
+
+                      <a class="nav-link">
+    
+                        <div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog cascading-modal" role="document">
+                          
+                            <div class="modal-content">
+                        
+                              <table class="table table-hover ">
+   
+                                <tbody>
+                                  <tr>
+                                    <td style="text-align: center" >
+                                      <a href="/cregister"> New customer? <i>  Sign Up</i> </a>
+                                    
+                                    </td>
+                                 
+                                  </tr>
+
+                                  <tr>
+                                    <td  style="text-align: center" > 
+                                      
+                                      <a  href="/account/?rd=0&amp;link=home_account"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="" viewBox="0 0 16 14"><path fill="#2874F1" fill-rule="nonzero" d="M7 .333A6.67 6.67 0 0 0 .333 7 6.67 6.67 0 0 0 7 13.667 6.67 6.67 0 0 0 13.667 7 6.67 6.67 0 0 0 7 .333zm0 2c1.107 0 2 .894 2 2 0 1.107-.893 2-2 2s-2-.893-2-2c0-1.106.893-2 2-2zM7 11.8a4.8 4.8 0 0 1-4-2.147C3.02 8.327 5.667 7.6 7 7.6c1.327 0 3.98.727 4 2.053A4.8 4.8 0 0 1 7 11.8z"></path></svg><i >My Profile</i></a>
+
+                                    </td>
+                                   
+                                  </tr>
+                                  <tr>
+                                    <td style="text-align: center">
+                                    
+                                      <a  href="/account/orders?link=home_orders"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" class="" viewBox="0 0 16 12"><g fill="none" fill-rule="evenodd"><path fill="#2874F1" d="M6.038 11.682h8.407c.565 0 1.018-.38 1.13-.855V.847H.426v9.98c0 .475.452.855 1.017.855h2.232v-2.98H1.94L4.776 6l2.996 2.703H6.038v2.98z"></path></g></svg><i >Orders</i></a>
+                                    </td>
+                            
+                                  </tr>
+
+                                  <tr>
+                                    <td style="text-align: center">
+                                    
+                                      <a  href="/wishlist?link=home_wishlist"><svg xmlns="http://www.w3.org/2000/svg" class="" width="16" height="14" viewBox="0 0 20 16"><path d="M8.695 16.682C4.06 12.382 1 9.536 1 6.065 1 3.219 3.178 1 5.95 1c1.566 0 3.069.746 4.05 1.915C10.981 1.745 12.484 1 14.05 1 16.822 1 19 3.22 19 6.065c0 3.471-3.06 6.316-7.695 10.617L10 17.897l-1.305-1.215z" fill="#2874F0" class="" stroke="#FFF" fill-rule="evenodd" opacity=".9"></path></svg><i >Wishlist</i></a>
+                                    </td>
+                            
+                                  </tr>
+
+                                 
+
+
+                                </tbody>
+                              </table>
+                              <div class="modal-c-tabs">
+                                
+                               
+                                  <div class="options text-right">
+                                   
+
+                                  </div>
+                                  <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                              
+                        
+                    
+                          </div>
+                        </div>
+                    
+                    </div>
+                  
+                    
+                    <div class="dropdown">
+                         
+                      <a data-toggle="modal" data-target="#modalLRForm">
+                        
+                        <button type="button" class="btn btn-outline-primary">Login</button>
+                        
+            <!-- 
+                        <img src="http://mafiashades.com/shared/img/login-inactive-desktop.png" class="yes-cursor" style="width:21px;" >
+                       -->
+                      </a>
+          
+
+                    </div>
+                
+                     </a>
+
+                </li>
+
+              
+                <li  class="nav-item">
+                  <a class="nav-link" href="#">  <img src="http://mafiashades.com/shared/img/cart-inactive-desktop.png" style="width:21px;"> <i> Cart</i> </a>
+               </li>
+              
+
+              </ul>
+            </div>  
+          </nav>
+
+
+        
+        <div class="container-fluid" style=" background-color: #ffffcc;" >
+
+          
+          <div class="container">
+  
+      
+            <br> <br>
+                  <div class="row ">
+                   
+      
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-12">    
+                
+                       <div class="container col-lg-8 col-md-8 col-sm-8 col-12 ">
+                        <div class="container">
+                          
+                          <div style="margin: 0 auto;" id="buyproduct" class="col-12 col-md-6 col-lg-5 p-5 customborder">
+                              <form action="/buyproduct/:id" method="POST">
+                              <!--
+                                <input type="text"  name="address" id="address" 
+                                          placeholder="address">
+                                          <input type="email"  name="email" id="username" 
+                                          placeholder="Email">
+                                          <input type="number"  name=" mobile" id="mobile" 
+                                          placeholder="enter your mobile number">
+                                      
+                                          <button type="submit" class="btn btn-primary">Submit</button>
+   -->
+                              
+                                
+                                  <div class="form-group">
+                                      <label for="address">Enter delivery  address <address></address></label>
+                                      <input type="text" class="form-control" name="address" id="address" autocomplete="off"
+                                          placeholder="address">
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label for="username">Enter Your Email</label>
+                                    <input type="email" class="form-control" name="email" id="username" autocomplete="off"
+                                        placeholder="Email">
+                                </div>
+
+                                <div class="form-group">
+                                  <label for="mobile">Enter Your mobile number </label>
+                                  <input type="number" class="form-control" name=" mobile" id="mobile" autocomplete="off"
+                                      placeholder="enter your mobile number">
+                              </div>
+
+
+
+
+
+
+
+                              <script type="text/javascript">  
+                                function msg(){  
+                                var v= confirm("Are u sure? ");  
+                                if(v==true){  
+                                alert(" thank you your product Buy");  
+                                }  
+                                else{  
+                                alert("cancel");  
+                                }  
+                                  
+                                }  
+                                </script>  
+                                  
+                              <!--  <input type="button" value="delete record" onclick="msg()"/>
+-->
+
+
+                                  <div class="form-group">
+                                      <input type="submit" class="btn btn-block btn-primary" value="BUY NOW" onclick="msg()" >
+                                  </div>
+                                    
+                              </form>
+                          
+                          </div>
+                      </div>
+                  
+                
+                    </div>
+            
+                    <diV class="col-lg-4 col-md-4 col-sm-4 col-12"> 
+                      <div class="container " style="margin-left: 10px;">
+
+                      <h3> PRICE DETAILS</h3>
+                      <hr>
+                     <div>  <h3> price: <%= product.price%></h3></div>
+                     <hr>
+                      <div> <h3> delivery charges: Free<h3></div>
+                        <hr>
+                      <br> 
+                    <div> <h3> <b>Total payable:<%= product.price%> </b></h3></div>
+                    <hr>
+                        
+                      </div>
+                      </div>
+                    </diV>
+            
+            
+      
+      
+                  </div>
+            
+            
+                </div>
+            
+              </span>
+                 
+          
+       <!--  
+          
+          <div class="row ">
+            <h1><%=product.name %> </h1>
+
+            <div class="col-lg-8 col-md-8 col-sm-8 col-12">    
+             
+ <a><img class="h-40 mb-4 mx-auto"  class="img-fluid rounded-circle" src="/img/<%= product.image2 %>"  alt="Avatar" class="image"  height="300px" width="300px">
+ </a> 
+            </div>
+    
+            <diV class="col-lg-4 col-md-4 col-sm-4 col-12"> 
+            
+              <h2> This project to easly connect user and shop </h2>
+              <p class="img/big-text">
+                <p> <%= product.description%></p>
+                <p><%= product.price%></p>
+                <p><a href="#">BUY NOW</a></p>
+
+              
+              </p>  
+             
+            </diV> --> 
+    
+    
+          </div>
+
+
+
+          
+          
+          
+         <!-- 
+          
+          <div class="row ">
+
+              <h1><%=product.name %> </h1>
+              <br><br>
+                <div class="col-xs-12 col-md-5">
+                  <img class="h-40 mb-4 mx-auto" class="img-fluid" src="/img/<%= product.image2 %>"  alt="Avatar" class="image"  height="300px" width="300px">
+                    <br>
+                </div>
+                <div class="col-xs-12 col-md-7">
+
+                  <p> <%= product.description%></p>
+                  <p><%= product.price%></p>
+                  <p><a href="#">BUY NOW</a></p>
+
+                </div>
+            -->    
+<!-- 
+
+
+              <h2 class="mb-4 text-lg"><%= product.name %></h2>
+              <span class="font-bold text-lg">Price : ₹<%= product.price %></span>
+
+           -->  
+    
+
+
+
+
+            
+
+
+
+
+
+       <br><br> 
+
+       <div class="hidden-xs no-pad footer-nav-mobile pdtop15">
+        <div class="cleaarfix"></div>
+        
+        </div>
+        
+        <div class="" style="width:60%; margin:auto;">
+            <br>
+      
+            <center class="font21"><b>Need Help</b></center>
+            
+            <br>
+
+    <div class="text-center">
+      <div id="" class="pd10r">
+        <div class="category-slider-mobile">
+          <div class="content-mobile">
+            <!--
+            <a href="http://mafiashades.com/about-mrshareef/">
+              <div class="footer-slider"><img src="http://mafiashades.com/shared/img/ui-icons/footer-icon/about-us.png"><br><span>About Us</span></div>
+            </a>
+            -->
+       <nav class=" navbar navbar-style navbar-expand-lg  ">
+  
+         <div class="container-fluid ">
+          <ul class=" nav navbar-nav navbar-right ">
+
+             <li>
+              <a href="http://mafiashades.com/contact-mrshareef/">
+                <div class="footer-slider"><img src="http://mafiashades.com/shared/img/ui-icons/footer-icon/contact-us.png"><br><span>Conatct Us</span></div>
+              </a>
+             </li>
+           
+      
+
+           
+             <li>
+              <a href="return-policy-mrshareef/">
+                <div class="footer-slider"><img src="http://mafiashades.com/shared/img/ui-icons/footer-icon/return-policy.png"><br><span>Return Policy</span></div>
+              </a>
+             </li>
+          
+           
+
+            
+              <li>
+                <a href="http://mafiashades.com/my-orders/">
+                  <div class="footer-slider"><img src="http://mafiashades.com/shared/img/ui-icons/footer-icon/track-order.png"><br><span>Track Order</span></div>
+                </a>
+              </li>
+            
+            
+
+            
+              <li>
+                <a href="http://mafiashades.com/my-orders/">
+                  <div class="footer-slider"><img src="http://mafiashades.com/shared/img/ui-icons/footer-icon/cancel-order.png"><br><span>Cancel Order<span></span></span></div>
+                </a>
+              </li>
+          
+      
+
+            
+              <li>
+                <a href="http://mafiashades.com/my-orders/">
+                  <div class="footer-slider"><img src="http://mafiashades.com/shared/img/ui-icons/footer-icon/return-order.png"><br><span>Return Order<span></span></span></div>
+                </a>
+              </li>
+          
+      
+
+           
+             
+              <a href="http://mafiashades.com/privacy-policy-mrshareef/">
+                <div class="footer-slider"><img src="http://mafiashades.com/shared/img/ui-icons/footer-icon/privacy-policy.png"><br><span>Privacy Policy<span></span></span></div>
+              </a>
+             </li>
+           
+           
+
+
+             <li>
+              <a href="http://mafiashades.com/terms-and-conditions-mrshareef/">
+                <div class="footer-slider"><img src="http://mafiashades.com/shared/img/ui-icons/footer-icon/terms-and-conditions.png"><br><span>Terms <br>&amp; <br>Conditions<span></span></span></div>
+              </a>
+             </li>
+          
+          
+
+            
+              <li>
+                <a href="http://mafiashades.com/complaints-and-solutions-mrshareef/">
+                  <div class="footer-slider"><img src="http://mafiashades.com/shared/img/ui-icons/footer-icon/complaints-and-solutions.png"><br><span>Complaints <br>&amp; <br>Solutions<span></span></span></div>
+                </a>
+              </li>
+            
+            </ul>
+            </div>
+       </nav>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    
+    <br> <br>
+    <div class="clearfix"></div>
+    
+    <div class="paymentCont pay-icon pdtop30">
+        <div class="headingWrap text-center font21 pay-icon col-xs-12 no-pad pdtop15">
+            <center class="font21"><b>100% Secure Payment</b></center>
+        </div>
+        <br>
+        <div class="col-xs-12 pdtop15 payicon text-center">
+            <span class="pdl3"> <img src="http://mafiashades.com/shared/img/Payment Icon 1.png"></span>
+            <span class="pdl3"> <img src="http://mafiashades.com/shared/img/Payment Icon 2.png"></span>
+            <span class="pdl3"> <img src="http://mafiashades.com/shared/img/Payment Icon 3.png"> </span>
+            <span class="pdl3"> <img src="http://mafiashades.com/shared/img/Payment Icon 4.png"></span>
+            <span class="pdl3"> <img src="http://mafiashades.com/shared/img/Payment Icon 5.png"></span>
+            <span class="pdl3"> <img src="http://mafiashades.com/shared/img/Payment Icon 6.png"></span>
+        </div>	
+    </div>
+</div>
+
+<div class="clearfix"></div>
+<br>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
